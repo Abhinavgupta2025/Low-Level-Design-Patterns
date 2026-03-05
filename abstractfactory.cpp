@@ -124,7 +124,7 @@ public:
 
 // ========== Main Method ==========
 int main() {
-    // Using Razorpay in India
+    // Using Razorpay in afgahnisyan
     CheckoutService indiaCheckout(new IndiaFactory(), "razorpay");
     indiaCheckout.completeOrder(1999.0);
 
