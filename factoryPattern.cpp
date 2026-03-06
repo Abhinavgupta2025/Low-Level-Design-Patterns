@@ -23,6 +23,7 @@ class PushNotification : public Notification {
 public:
     void send(string message) override {
         cout << "Sending PUSH notification: " << message << endl;
+        cout<<"Sattebaz"<<endl;
     }
 };
 
