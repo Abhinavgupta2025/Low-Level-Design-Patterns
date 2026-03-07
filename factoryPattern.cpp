@@ -24,6 +24,7 @@ public:
     void send(string message) override {
         cout << "Sending PUSH notification: " << message << endl;
         cout<<"Sattebaz"<<endl;
+        cout<<"Again"<<endl;
     }
 };
 
